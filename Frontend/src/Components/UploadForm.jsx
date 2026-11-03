@@ -1,7 +1,7 @@
 export default function UploadFrom(){
     return (
         
-           <div className="row col-12 col-md-8 col-lg-8 mx-auto mt-3 mb-5  px-1">
+           <div className="row col-12 col-md-8 col-lg-8 mx-auto mt-3 mb-5  px-1" style={{borderRadius:"5px",boxShadow:"0px 2px 4px rgba(0,0,0,0.1)"}}>
                 <br />
                 <h3 style={{textAlign:"center"}}>Create a New Listing</h3>
                     <div className="mb-2">
