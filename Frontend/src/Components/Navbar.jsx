@@ -19,8 +19,10 @@ function NavbarComponent() {
         />
         <Nav className="me-auto ">
             <Nav.Link as={Link}to="/Home" className="fw-semibold"style={{ color: "black" }}>Home</Nav.Link>
-            <Nav.Link as={Link}to="/Listing" className="fw-semibold"style={{ color: "black" }}>Listing</Nav.Link>
+            <Nav.Link as={Link}to="/CreateYourListing" className="fw-semibold"style={{ color: "black" }}>Create Your Listing</Nav.Link>
             <Nav.Link as={Link}to="/Cart"  className="fw-semibold" style={{ color: "black" }}>Cart</Nav.Link>
+            <Nav.Link as={Link}to="/Signup"  className="fw-semibold" style={{ color: "black" }}>Signup</Nav.Link>
+            <Nav.Link as={Link}to="/Login"  className="fw-semibold" style={{ color: "black" }}>Login</Nav.Link> 
           </Nav>
           
         <Nav.Link as={Link} to="/Cart">

@@ -1,7 +1,8 @@
 import NavbarComponent from "./Components/Navbar"
 import {Route,Routes} from "react-router-dom";
 import Home from "./Pages/Home";
-import Listing from "./Pages/Listing";
+import CreateYourListing from "./Pages/CreateYourListing";
+import LoginPage from "./Pages/LoginPage";
 import Cart from "./Pages/Cart";
 function App() {
   return (
@@ -9,8 +10,10 @@ function App() {
     <NavbarComponent />
       <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/Listing" element={<Listing />} />
+              <Route path="/CreateYourListing" element={<CreateYourListing />} />
               <Route path="/Cart" element={<Cart/>}/>
+              <Route path="/Signup" element={<h1>Signup Page</h1>}/>
+              <Route path="/Login" element={<LoginPage/>}/>
       </Routes>
     </>
   )

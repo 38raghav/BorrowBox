@@ -8,7 +8,7 @@ function Ccarousal() {
         return (
           <Carousel.Item key={item.id}>
             
-            <img src="https://apollo.olx.in/v1/files/hot2v0h3zj7e3-PANAMERA/image;original=true" alt="" />
+            <img src={item.images} alt="" />
             <div>
               <h3>{item.title}</h3>
               <h3>{item.category}</h3>
