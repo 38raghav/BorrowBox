@@ -1,6 +1,4 @@
-
 import NavbarComponent from "./Components/Navbar"
-
 import {Route,Routes} from "react-router-dom";
 import Home from "./Pages/Home";
 import CreateYourListing from "./Pages/CreateYourListing";
@@ -19,8 +17,6 @@ function App() {
               <Route path="/Signup" element={<SignupPage />}/>
               <Route path="/Login" element={<LoginPage />}/>
       </Routes>
-     
-
     </>
   )
 }
