@@ -1,7 +1,9 @@
+import UploadFrom from "../Components/UploadForm";
+
 export default function CreateYourListing(){
     return(
         <>
-        <h1>Listing</h1>
+        <UploadFrom/>
         </>
     )
 }
