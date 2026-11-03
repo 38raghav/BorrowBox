@@ -1,14 +1,14 @@
 export default function LoginForm() {
   return (
     <>
-      <div className="container my-auto py-5 d-flex justify-content-center">
+      <div className="container my-auto py-5 d-flex justify-content-center" style={{width:"50%",height:"90%"}}>
         <div
           className="w-100 bg-white border rounded-4 shadow-sm p-4 p-md-5"
           
         >
           <div className="mb-4">
-            <h3 className="fw-bold text-dark fs-3 mb-1">Welcome back</h3>
-            <p className="text-secondary small">
+            <h3 className="mb-1" style={{textAlign:"center",color:"#240763"}}>Welcome back</h3>
+            <p className="text-secondary small" style={{textAlign:"center"}}>
               Enter your credentials to access your dashboard.
             </p>
           </div>
@@ -26,6 +26,7 @@ export default function LoginForm() {
                 type="email"
                 className="form-control py-2.5 border-secondary-subtle"
                 id="email"
+                placeholder="abc@gmail.com"
                 required
               />
               
@@ -43,7 +44,7 @@ export default function LoginForm() {
                   href="/forgot-password"
                   className="small text-muted text-decoration-none"
                 >
-                  Forgot?
+                  ForgotPassword?
                 </a>
               </div>
               <input
@@ -51,6 +52,7 @@ export default function LoginForm() {
                 type="password"
                 className="form-control py-2.5 border-secondary-subtle"
                 id="password"
+                placeholder="*******"
                 required
               />
               <div class="invalid-feedback">Please enter your password.</div>
@@ -58,7 +60,8 @@ export default function LoginForm() {
 
             <button
               type="submit"
-              className="btn btn-dark w-100 py-3 fw-bold text-white shadow-sm mb-4"
+              className="w-100 py-3 fw-bold text-white shadow-sm mb-4"
+              style={{backgroundColor:"#25036F"}}
               
             >
               Log in
@@ -70,7 +73,8 @@ export default function LoginForm() {
               First time using Wanderlust?{" "}
               <a
                 href="/signup"
-                className="text-dark fw-bold text-decoration-underline"
+                className=" fw-bold text-decoration-underline"
+                style={{color:"#25036F"}}
               >
                 Create an account
               </a>
