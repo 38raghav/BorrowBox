@@ -34,7 +34,7 @@ export const cardData = [
   },
   {
     id: 4,
-    title: "Inverter Compatible Desert Cooler",
+    title: "Inverter Compatible Desert",
     category: "Air Cooler",
     description: "High-performance motorized desert air cooler with heavy-duty wheels for easy mobility.",
     images: "https://rukminim3.flixcart.com/image/480/640/xif0q/air-cooler/y/h/5/210-210-powerstorm-117-hindware-resized-original-imahk646gdamkk4d.jpeg?q=90",
@@ -45,7 +45,7 @@ export const cardData = [
   },
   {
     id: 5,
-    title: "Single Door Refrigerator & Microwave Combo",
+    title: "Single Door Refrigerator",
     category: "Appliances",
     description: "Compact beige single-door fridge paired with a versatile black digital countertop microwave oven.",
     images: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMi6TmNGezYoopvEBq3ESKpCfLCWbKyqtBYQeWaev3AVPmSsmcsgJ01Vc&s=10",
@@ -56,7 +56,7 @@ export const cardData = [
   },
   {
     id: 6,
-    title: "Air Purifier & Water Dispenser Combo",
+    title: "Air Purifier & Water Dispenser",
     category: "Purifiers",
     description: "Smart cylindrical air purifier alongside a sleek tabletop digital hot/cold water purifier.",
     images: "https://m.media-amazon.com/images/I/71YOO9L4UVL._AC_UF894,1000_QL80_.jpg",
@@ -78,7 +78,7 @@ export const cardData = [
   },
   {
     id: 8,
-    title: "Fully Automatic Washing Machine",
+    title: "Automatic Washing Machine",
     category: "Appliances",
     description: "Top loading energy-efficient washing machine with multiple smart wash cycle configurations.",
     images: "https://rukminim2.flixcart.com/image/480/640/xif0q/washing-machine-new/d/y/4/7-5-57-hwm75-h826s6-0-0-55-56-haier-97-original-imagh92ujm5wcuc4.jpeg?q=90",
@@ -89,7 +89,7 @@ export const cardData = [
   },
   {
     id: 9,
-    title: "Ergonomic Office Chair & Desk Combo",
+    title: "Ergonomic Office Chair ",
     category: "Study Room",
     description: "High-back mesh chair paired with a sleek minimalist wooden study desk featuring built-in wire management.",
     images: "https://thesleepcompany.in/cdn/shop/files/UltronPremiumErgonomicmobileblack_1_df2a1242-ec9e-43b0-8197-a7ac3ce0df70.webp?v=1782720608&width=500",
@@ -100,7 +100,7 @@ export const cardData = [
   },
   {
     id: 10,
-    title: "Classic 4-Seater Wooden Dining Set",
+    title: "Classic 4-Seater Wooden ",
     category: "Dining Room",
     description: "Solid wood dining table accompanied by four matching cushioned high-back dining chairs.",
     images: "https://www.lakdi.com/cdn/shop/files/161854160_1.png?v=1783067099&width=1254",
@@ -122,7 +122,7 @@ export const cardData = [
   },
   {
     id: 12,
-    title: "Faux Leather Bean Bag with Footrest",
+    title: "Faux Leather Bean Bag ",
     category: "Living Room",
     description: "Premium XXXL pre-filled teardrop bean bag paired with a matching cylindrical footrest stool.",
     images: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_L--cMPa_9iPEqyiSM9wI1OD-oH70do8-Gb0aTOLroTlqJOUvX9o1rJk&s=10",

@@ -3,7 +3,7 @@ export default function UploadFrom(){
         
            <div className="row col-12 col-md-8 col-lg-8 mx-auto mt-3 mb-5  px-1" style={{borderRadius:"5px",boxShadow:"0px 2px 4px rgba(0,0,0,0.1)"}}>
                 <br />
-                <h3 style={{color:"#163B70",textAlign:"center"}}>Create a New Listing</h3>
+                <h3 style={{textAlign:"center"}}>Create a New Listing</h3>
                     <div className="mb-2">
                         <label for="title" class="form-label">Title</label>
                         <input name="title" type="text" className="form-control" id="title" required />
@@ -43,7 +43,7 @@ export default function UploadFrom(){
                     </div>
 
             
-                    <button type="submit" className="btn btn-dark  add-btn" style={{backgroundColor:"#163B70"}}>Add!</button><br></br>
+                    <button type="submit" style={{backgroundColor: "#163B70"}} className="btn btn-dark  add-btn">Add!</button><br></br>
 
             
             </div>

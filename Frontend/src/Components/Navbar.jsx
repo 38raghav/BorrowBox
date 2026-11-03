@@ -22,7 +22,7 @@ function NavbarComponent() {
 </div>
         
         <Nav className="d-flex align-items-center" style={{ gap: "20px" }}>
-            <Nav.Link as={Link}to="/Home" className="fw-semibold"style={{ color: "white" }}>Home</Nav.Link>
+            <Nav.Link as={Link}to="/" className="fw-semibold"style={{ color: "white" }}>Home</Nav.Link>
             <Nav.Link as={Link}to="/CreateYourListing" className="fw-semibold"style={{ color: "white" }}>Create Your Listing</Nav.Link>
             <Nav.Link as={Link}to="/Cart"  className="fw-semibold" style={{ color: "white" }}>Cart</Nav.Link>
             <Nav.Link as={Link}to="/Signup"  className="fw-semibold" style={{ color: "white" }}>Signup</Nav.Link>
