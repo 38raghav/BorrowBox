@@ -1,12 +1,21 @@
-import { Cards } from "./Components/Cards"
-import { Ccarousal } from "./Components/Carousel"
-import SignupForm from "./Components/SignupForm"
+
+import NavbarComponent from "./Components/Navbar"
+
+import {Route,Routes} from "react-router-dom";
+import Home from "./Pages/Home";
+import Listing from "./Pages/Listing";
+import Cart from "./Pages/Cart";
 function App() {
   return (
     <>
-    <h1>Hello</h1>
-    <Ccarousal></Ccarousal>
-    <Cards></Cards>
+    <NavbarComponent />
+      <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/Listing" element={<Listing />} />
+              <Route path="/Cart" element={<Cart/>}/>
+              
+      </Routes>
+     
 
     </>
   )

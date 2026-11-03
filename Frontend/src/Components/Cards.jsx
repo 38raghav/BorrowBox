@@ -7,7 +7,7 @@ export const Cards = () => {
     <div className="d-flex flex-wrap gap-3"> 
       {cardData.map((item) => (
         <Card style={{ width: '18rem' }} key={item.id}> 
-          <Card.Img variant="top" src={item.image || "https://apollo.olx.in/v1/files/hot2v0h3zj7e3-PANAMERA/image;original=true"} /> 
+          <Card.Img variant="top" src={item.images} /> 
           <Card.Body> 
             <Card.Title>{item.title}</Card.Title> 
             <Card.Text> 
