@@ -5,13 +5,14 @@ import { showDetails } from './showDetails';
 
 export const Cards = () => { 
   return ( 
-    <div className="d-flex flex-wrap gap-3"> 
+    <div className="d-flex flex-wrap gap-3" style={{marginLeft:"50px"}}> 
       {cardData.map((item) => (
-        <Card style={{ width: '18rem' }} key={item.id}> 
-          <Card.Img variant="top" src={item.images} /> 
+        <Card style={{ width: '20rem',marginLeft:"50px" }} key={item.id}> 
+          <Card.Img variant="top" style={{height:"250px"}} src={item.images} /> 
           <Card.Body> 
             <Card.Title>{item.title}</Card.Title> 
-            <Card.Text> 
+           <div style={{height:"150px"}}>
+             <Card.Text> 
               {item.description}
             </Card.Text> 
             <Card.Text> 
