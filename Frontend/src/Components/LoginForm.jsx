@@ -13,12 +13,7 @@ export default function LoginForm() {
             </p>
           </div>
 
-          <form
-            action="/login"
-            method="POST"
-            class="needs-validation"
-            novalidate
-          >
+         
             <div class="mb-4">
               <label
                 for="email"
@@ -82,7 +77,7 @@ export default function LoginForm() {
                 Create an account
               </a>
             </div>
-          </form>
+          
         </div>
       </div>
     </>
