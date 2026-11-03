@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button'; 
 import Card from 'react-bootstrap/Card'; 
 import { cardData } from './cardData'; 
+import { showDetails } from './showDetails';
 
 export const Cards = () => { 
   return ( 
@@ -17,8 +18,7 @@ export const Cards = () => {
             <Card.Text> 
               {item.price}
             </Card.Text>
-           </div>
-            <Button variant="primary" style={{bottom:"20px"}}>Book Now</Button> 
+            <Button variant="primary" onClick={()=>showDetails(item)}>Book Now</Button> 
           </Card.Body> 
         </Card>
       ))} 
