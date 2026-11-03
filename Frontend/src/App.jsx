@@ -2,8 +2,9 @@
 import NavbarComponent from "./Components/Navbar"
 
 import {Route,Routes} from "react-router-dom";
-import  SignupPage from "./Pages/SignupPage";
-import Listing from "./Pages/Listing";
+import Home from "./Pages/Home";
+import CreateYourListing from "./Pages/CreateYourListing";
+import LoginPage from "./Pages/LoginPage";
 import Cart from "./Pages/Cart";
 
 function App() {
@@ -11,11 +12,11 @@ function App() {
     <>
     <NavbarComponent />
       <Routes>
-              <Route path="/" element={<SignupPage />} />
-              <Route path="/Listing" element={<Listing />} />
-
+              <Route path="/" element={<Home />} />
+              <Route path="/CreateYourListing" element={<CreateYourListing />} />
               <Route path="/Cart" element={<Cart/>}/>
-              
+              <Route path="/Signup" element={<h1>Signup Page</h1>}/>
+              <Route path="/Login" element={<LoginPage/>}/>
       </Routes>
      
 
