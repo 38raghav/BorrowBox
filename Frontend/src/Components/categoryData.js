@@ -27,9 +27,14 @@ export const categoryData=[
         category:"Appliances"
     },
     {
-        id:"5",
+        id:"6",
          image:"https://cdn.rentickle.com/media/catalog/category/Frame_2147225876.png",
         category:"Purifiers"
+    },
+    {
+        id:"7",
+         image:"https://cdn.rentickle.com/media/catalog/category/luxury.png",
+        category:"luxury"
     }
 
 ]
