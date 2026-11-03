@@ -8,13 +8,13 @@ export default function Home(){
        <Ccarousal></Ccarousal>
        <br />
        <br />
-      <h1 style={{backgroundColor:"blue", color:"white" ,width:"300px" ,marginLeft:"5%", padding:"1%"}}> All Categores</h1>
+      <h3 style={{backgroundColor:"blue", color:"white" ,width:"220px" ,marginLeft:"5%", padding:"1%",borderRadius:"5%"}}> All Categores</h3>
        <br />
        <Category></Category>
        <br />
        <br />
        <br />
-       <Cards></Cards>
+       <Cards style={{justifyContent:"center"}}></Cards>
         </>
     )
 }
