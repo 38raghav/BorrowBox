@@ -20,5 +20,10 @@ export const categoryData=[
         id:"4",
          image:"https://cdn.rentickle.com/media/catalog/category/Cooler.png",
         category:"Air Clooer"
+    },
+    {
+        id:"5",
+         image:"https://cdn.rentickle.com/media/catalog/category/Appliances_3.png",
+        category:"Appliances"
     }
 ]

@@ -12,9 +12,10 @@ import Cart from "./Pages/Cart";
 
 function App() {
   return (
-    <Container>
-      <Row>
-        <Col>
+
+     
+       
+      <>
         <NavbarComponent />
       <Routes>
               <Route path="/" element={<Home />} />
@@ -23,10 +24,10 @@ function App() {
               <Route path="/Signup" element={<SignupPage />}/>
               <Route path="/Login" element={<LoginPage />}/>
       </Routes>
-        </Col>
-      </Row>
-    </Container>
-
+      </>
+    
+     
+   
  
     
      

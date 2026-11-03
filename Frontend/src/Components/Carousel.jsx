@@ -3,14 +3,14 @@ import { carouselData } from './carouselData';
 
 export const Ccarousal = () => {
   return (
-    <Carousel>
+    <Carousel >
       {carouselData.map((item) => (
         <Carousel.Item key={item.id}>
           <img 
             className="d-block w-100" 
             src={item.images} 
             alt={item.title} 
-            style={{ height: '600px', objectFit: 'cover' }} 
+            style={{ height: '500px', objectFit: 'cover' }} 
           />
           <Carousel.Caption>
             <h3>{item.title}</h3>
