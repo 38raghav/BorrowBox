@@ -17,7 +17,9 @@ export const Cards = () => {
             </Card.Text> 
             <Card.Text> 
               {item.price}
+
             </Card.Text>
+            </div>
             <Button variant="primary" onClick={()=>showDetails(item)}>Book Now</Button> 
           </Card.Body> 
         </Card>

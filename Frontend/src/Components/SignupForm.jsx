@@ -26,7 +26,7 @@ export default function SignupForm() {
     borderRadius: "5px"}}> 
         <div style={{margin:"20px",padding:"20px"}}>
             <div className="mb-3">
-                         <h2 className="fw-bold display-6 mb-2" style={{textAlign:"center",color:"#25036F"}}>Create an account</h2>
+                         <h2 className="fw-bold display-6 mb-2" style={{textAlign:"center",color:"#163B70"}}>Create an account</h2>
                          <p className="text-secondary small" style={{textAlign:"center"}}>Let's get you set up for your next adventure.</p>
                     </div>
 
@@ -54,7 +54,7 @@ export default function SignupForm() {
                         
                         
                          <div className="text-center small text-secondary">
-                            Already a member? <a href="/login" class=" fw-bold text-decoration-underline" style={{color:"#25036F"}}>Log in instead</a>
+                            Already a member? <a href="/login" class=" fw-bold text-decoration-underline" style={{color:"#163B70"}}>Log in instead</a>
                          </div>
                          </div>
 
