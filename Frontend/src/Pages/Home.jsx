@@ -1,7 +1,13 @@
+import { Ccarousal } from "../Components/Carousel"
+import { Cards } from "../Components/Cards"
+import Category from "../Components/Category"
+
 export default function Home(){
     return(
         <>
-        <h1>HOME</h1>
+       <Ccarousal></Ccarousal>
+       <Category></Category>
+       <Cards></Cards>
         </>
     )
 }

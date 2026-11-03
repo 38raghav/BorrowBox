@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { carouselData } from './carouselData';
 
-function Ccarousal() {
+export const Ccarousal=()=> {
   return (
     <Carousel>
       {carouselData.map((item) => {
@@ -21,4 +21,4 @@ function Ccarousal() {
   );
 }
 
-export default Ccarousal;
+
