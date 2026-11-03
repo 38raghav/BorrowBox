@@ -1,4 +1,6 @@
+
 import NavbarComponent from "./Components/Navbar"
+
 import {Route,Routes} from "react-router-dom";
 import  SignupPage from "./Pages/SignupPage";
 import Listing from "./Pages/Listing";
@@ -13,7 +15,10 @@ function App() {
               <Route path="/Listing" element={<Listing />} />
 
               <Route path="/Cart" element={<Cart/>}/>
+              
       </Routes>
+     
+
     </>
   )
 }
